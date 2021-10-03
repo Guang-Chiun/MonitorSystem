@@ -1,0 +1,63 @@
+﻿{
+  "EQID": "EQ3",
+  "EQPassword": "123456",
+  "EQName": "AOI3A",
+  "EQPosition": {
+    "IsEmpty": false,
+    "X": 675,
+    "Y": 37
+  },
+  "EQSize": {
+    "IsEmpty": false,
+    "Width": 148,
+    "Height": 101
+  },
+  "EQWarningInfoList": [
+    {
+      "Name": "Defect Overflow",
+      "ID": 1,
+      "Enable": true,
+      "Threshold": 100
+    }
+  ],
+  "EQChartList": [
+    {
+      "chartType": "BarChart",
+      "ShowChartName": "EQ3 : 測試最近30張Glass缺陷資訊直方表1",
+      "MonitorItemList": [
+        {
+          "ColumnName": "DefectNum",
+          "Threshold": 200
+        },
+        {
+          "ColumnName": "MaskCommonDefect",
+          "Threshold": 0
+        }
+      ]
+    },
+    {
+      "chartType": "BarChart",
+      "ShowChartName": "EQ3 : 測試最近30張Glass缺陷資訊直方表2",
+      "MonitorItemList": [
+        {
+          "ColumnName": "DefectNum",
+          "Threshold": 100
+        },
+        {
+          "ColumnName": "MaskCommonDefect",
+          "Threshold": 0
+        }
+      ]
+    },
+    {
+      "chartType": "BarChart",
+      "ShowChartName": "EQ3 : 測試最近30張Glass缺陷資訊直方表3",
+      "MonitorItemList": [
+        {
+          "ColumnName": "DefectNum",
+          "Threshold": 100
+        }
+      ]
+    }
+  ]
+}

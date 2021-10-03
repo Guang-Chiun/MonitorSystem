@@ -1,0 +1,39 @@
+﻿{
+  "EQID": "EQ2",
+  "EQPassword": "123456",
+  "EQName": "AOI2A",
+  "EQPosition": {
+    "IsEmpty": false,
+    "X": 505,
+    "Y": 37
+  },
+  "EQSize": {
+    "IsEmpty": false,
+    "Width": 148,
+    "Height": 101
+  },
+  "EQWarningInfoList": [
+    {
+      "Name": "Defect Overflow",
+      "ID": 1,
+      "Enable": true,
+      "Threshold": 300
+    }
+  ],
+  "EQChartList": [
+    {
+      "chartType": "BarChart",
+      "ShowChartName": "EQ2 : 測試最近30張Glass缺陷資訊直方表",
+      "MonitorItemList": [
+        {
+          "ColumnName": "DefectNum",
+          "Threshold": 300
+        },
+        {
+          "ColumnName": "MaskCommonDefect",
+          "Threshold": 0
+        }
+      ]
+    }
+  ]
+}

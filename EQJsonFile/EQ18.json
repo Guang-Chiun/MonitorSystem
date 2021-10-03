@@ -1,0 +1,91 @@
+﻿{
+  "EQID": "EQ18",
+  "EQPassword": "123456",
+  "EQName": "AOI18A",
+  "EQPosition": {
+    "IsEmpty": false,
+    "X": 675,
+    "Y": 427
+  },
+  "EQSize": {
+    "IsEmpty": false,
+    "Width": 148,
+    "Height": 101
+  },
+  "EQWarningInfoList": [
+    {
+      "Name": "Defect Overflow",
+      "ID": 1,
+      "Enable": true,
+      "Threshold": 500
+    },
+    {
+      "Name": "Mask Common",
+      "ID": 2,
+      "Enable": true,
+      "Threshold": 0
+    },
+    {
+      "Name": "Glass Common",
+      "ID": 4,
+      "Enable": true,
+      "Threshold": 0
+    }
+  ],
+  "EQChartList": [
+    {
+      "chartType": "BarChart",
+      "ShowChartName": "測試最近30張Glass缺陷資訊直方表",
+      "MonitorItemList": [
+        {
+          "ColumnName": "DefectNum",
+          "Threshold": 450
+        },
+        {
+          "ColumnName": "S Size Defect Num",
+          "Threshold": 0
+        },
+        {
+          "ColumnName": "M Size Defect Num",
+          "Threshold": 10
+        },
+        {
+          "ColumnName": "L Size Defect Num",
+          "Threshold": 5
+        },
+        {
+          "ColumnName": "O Size Defect Num",
+          "Threshold": 2
+        }
+      ]
+    },
+    {
+      "chartType": "LineChart",
+      "ShowChartName": "測試時間缺陷數量圖",
+      "MonitorItemList": [
+        {
+          "ColumnName": "DefectNum",
+          "Threshold": 0
+        },
+        {
+          "ColumnName": "M Size Defect Num",
+          "Threshold": 0
+        },
+        {
+          "ColumnName": "L Size Defect Num",
+          "Threshold": 0
+        },
+        {
+          "ColumnName": "O Size Defect Num",
+          "Threshold": 0
+        }
+      ]
+    },
+    {
+      "chartType": "PieChart",
+      "ShowChartName": "生產狀況圓餅圖",
+      "MonitorItemList": [
+      ]
+    }
+  ]
+}
