@@ -1,7 +1,7 @@
 # AOI機台監控程式
 - 開發環境 : C# Net Core 3.0
-- [GitHub連結](/s/basic-markdown-formatting-tw)
-- [程式使用資料庫(SQL Server)連結](/s/basic-markdown-formatting-tw)
+- [GitHub連結](https://github.com/Guang-Chiun/MonitorSystem)
+- [程式使用資料庫(SQL Server)連結](https://drive.google.com/file/d/1xvTrdltPyeFT5Z-mevcanZZjB6h7T2AH/view)
 
 
 ## 主畫面
