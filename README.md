@@ -5,7 +5,7 @@
 
 
 ## 主畫面
-GIF DEMO : 
+### GIF DEMO : 
 ![](https://i.imgur.com/MPB9q5U.gif)
 
 
